@@ -19,11 +19,7 @@ export const communityCategories = [
 export const uaeCities = ['Dubai', 'Abu Dhabi', 'Sharjah', 'Ras Al Khaimah'];
 
 export const communities = [
-  {
-    id: 'palm-jumeirah', name: 'Palm Jumeirah', city: 'Dubai', rating: 4.1,
-    image: 'https://images.unsplash.com/photo-1580674684089-5c8b0b7f7c1e?auto=format&fit=crop&w=600&q=80',
-    tags: ['popular', 'expats'],
-  },
+
   {
     id: 'emirates-hills', name: 'Emirates Hills', city: 'Dubai', rating: 4.4,
     image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80',
