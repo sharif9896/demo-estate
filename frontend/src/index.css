@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { scroll-behavior: smooth; }
+body { @apply bg-ivory text-navy font-body; }
+
+.divider-gold {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #B08D57 20%, #B08D57 80%, transparent);
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid #B08D57;
+  outline-offset: 2px;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
